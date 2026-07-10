@@ -56,5 +56,7 @@ The model generates:
 - Support real-time video inspection.
 
 ## License
-
 MIT License
+
+## Author
+Tirupati Alekhya
