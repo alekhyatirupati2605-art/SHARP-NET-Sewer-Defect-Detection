@@ -1,7 +1,7 @@
 # SHARP-Net: Sewer/Culvert Pipe Defect Detection
 
 ## Project Overview
-SHARP-Net is a deep learning-based image segmentation project that detects defects in sewer and culvert pipe images. The model identifies damaged regions and classifies them based on severity to assist in automated infrastructure inspection.
+SHARP-Net is a deep learning-based image segmentation project for detecting defects in sewer and culvert pipe images. The project includes synthetic dataset generation, model training, evaluation, and inference to assist automated infrastructure inspection. The model identifies damaged regions, generates defect probability heatmaps, and classifies defects based on severity.
 
 ## Features
 - Detects defects in sewer and culvert pipes
