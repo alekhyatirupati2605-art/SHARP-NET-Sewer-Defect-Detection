@@ -46,6 +46,3 @@ The model displays:
 - Improve detection accuracy.
 - Deploy as a web application.
 - Support real-time video inspection.
-
-## Author
-Alekhya
