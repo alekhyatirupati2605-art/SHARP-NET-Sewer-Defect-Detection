@@ -4,13 +4,14 @@
 SHARP-Net is a deep learning-based image segmentation project for detecting defects in sewer and culvert pipe images. The project includes synthetic dataset generation, model training, evaluation, and inference to assist automated infrastructure inspection. The model identifies damaged regions, generates defect probability heatmaps, and classifies defects based on severity.
 
 ## Features
-- Detects defects in sewer and culvert pipes
-- Generates a defect probability heatmap
-- Highlights detected defect regions
-- Classifies defects into:
-  - Minor
-  - Moderate
-  - Severe
+- Automatic sewer and culvert pipe defect detection
+- Synthetic CCTV sewer dataset generation
+- Custom SHARP-Net image segmentation model
+- Defect probability heatmap generation
+- Defect region highlighting
+- Defect severity classification
+- Model evaluation using IoU and Dice Score
+- Inference on uploaded pipe images
 
 ## Technologies Used
 - Python
@@ -18,6 +19,7 @@ SHARP-Net is a deep learning-based image segmentation project for detecting defe
 - OpenCV
 - NumPy
 - Matplotlib
+- Scikit-learn
 - Google Colab
 
 ## Project Workflow
@@ -33,6 +35,12 @@ The model displays:
 - Original pipe image
 - Defect probability heatmap
 - Defects highlighted with severity labels
+The model generates:
+- Original pipe image
+- Defect probability heatmap
+- Binary segmentation mask
+- Highlighted defect regions
+- Defect severity labels
 
 ## How to Run
 1. Open the notebook in Google Colab.
